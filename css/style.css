@@ -1,0 +1,221 @@
+/*SITEWIDE STYLE RESETS*/
+
+/* seleect ALL HTML ELEMENTS - be careful with this one */
+*{
+	color: #000;
+}
+
+/*select any body element - normally there is just one*/
+
+body {
+	color: #222222;
+	margin:0;
+}
+
+/*select  any anchor element */
+a{
+	color:  #222222;
+	text-decoration: underline;
+}
+
+/* select any anchor elements that are hovered over */ 
+a:hover {
+	color: #222222;
+	text-decoration: underline;
+}
+
+
+/*TOP SECTION - NAVIGATION */
+/* select any ul element with class of nav */
+ul.nav{
+	float: right;
+	margin-right: 25px;
+}
+
+/*select any li element, nested inside of a ul element with a class of nav */
+ul.nav li {
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+
+/*seleects any div element with a class of fa */
+
+div.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;
+}
+
+/*selects any div elements with the class of are that are hovered over */
+
+div.fa:hover {
+	opacity: 1.0;
+}
+
+
+/*slects any span elements with the class share */
+
+span.share {
+	background-color: #f2f2f2;
+	padding: 7px 15px;
+	cursor:default;
+	position:relative;
+	top: -3px;
+}
+
+/*selects any span elements with class share that ore hovered over */
+
+span.share:hover {
+	background-color: #e1e1e1;
+}
+
+
+/* selects any img elements with the class profile_img */
+img.profile_img {
+	border-radius: 25px;
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 9px;
+}
+
+
+/* MIDDLE SECTION - SEARCH BAR*/
+/* selcect any div element with the class searchBox*/
+
+div.seachBox {
+	position: absolute;
+	margin-top: 75px;
+	width: 100%;
+}
+
+/* selects any img elements nested inside any div elements with the class searchBox */
+
+div.searchBox img {
+	padding: 142px 0 24px 350px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* select any input elements, nested inside any div elements with the class searchBox */
+div.searchBox input {
+	width: 600px;
+	margin: 0 auto;
+	padding: 5px;
+	border:1px solid #d9d9d9;
+	font-size: 16px;
+	border-radius: 5px;
+	display:block;
+
+}
+
+
+/* select any input element that is focused on, nested inside of any div element with the class searchBox */
+
+div.searchBox input:focus{
+	border-color:#f5f5f5;
+}
+
+/* select any div elemetns with the class buttons*/
+div.buttons {
+	text-align: center;
+	padding-left:0;
+
+}
+
+
+/* select any button elements nested inside any div elements with the class buttons*/
+div.buttons button {
+	background-color: #f5f5f5;
+	border: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 2px;
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 27px;
+	margin: 17px 6px;
+	padding: 0 12px;
+	display:inline-block;
+	cursor: pointer;
+}
+
+
+/* select any button eleents being hovered over, nested inside of any div elements with the class buttons*/
+div.buttons button:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 1);
+	color: #333333;
+
+}
+
+
+/*BOTTOM SECTION - MORE SITE LINKS */
+
+/* select any div elements with the class bottom*/
+div.buttom {
+	bottom: 0 !important;
+	position: absolute;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	vertical-align: bottom;
+
+}
+
+
+/* select any ul elements wit the class left, nested inside any div elements with the class bottom &&& select any ul elemcts with the class right, nested insided of any div elemetns with the class bottom*/
+div.bottom ul.left, 
+div.bottom ul.right {
+	margin: 0;
+}
+
+/* select any ul elements wit the class left, nested inside any div elements with the class bottom*/
+div.bottom ul.left {
+	float:left;
+	padding-left: 20px;
+}
+
+/* select any ul elemcts with the class right, nested insided of any div elemetns with the class bottom */
+
+div.bottom ul.right {
+	float:right;
+	padding-right: 10px;
+}
+
+/* select any li eleents nested inside any ul elements with the class left, nested inside any div elemtns with the class bottom &&& select any li elements , nested insided of any ul elements with the class right , nested insided any div elemetns with the class bottom */
+
+div.bottom ul.left li,
+div.bottom ul.right li {
+	list-style: none;
+	display: inline;
+	line-height: 40px;
+}
+
+/* select any anchor element, nested inside of any li eleents, nested inside any ul elements with the class right, nested inside any div elemtns with the class bottom*/
+
+div.bottom ul.right li a:first-child {
+	padding-right:  8px;
+}
+
+/* select any li elements */
+
+div.bottom ul.left li:nth-child(2),
+div.bottom ul.left li:nth-child(3) {
+	margin-left: 7px;
+}
+
+div.bottom ul.left li a,
+div.bottom ul.right li a {
+	color: #666666;
+	margin: 2px 10px 0;
+	letter-spacing: 0 1px;
+	font-size: 14px;
+}
+
